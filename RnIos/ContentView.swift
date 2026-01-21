@@ -28,6 +28,7 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
 
             Text("SwiftUI host app")
+                .font(.custom("RubikStorm-Regular", size: 24))
 
             Button("Open React Native") {
                 showReactNative = true
